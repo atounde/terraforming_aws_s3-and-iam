@@ -36,5 +36,5 @@ EOF
 }
 
 output "secret" {
-  value = [aws_iam_access_key.key.secret, aws_iam_user.user.unique_id]
+  value = [aws_iam_access_key.key.secret, aws_iam_access_key.key.id]
 }
