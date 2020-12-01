@@ -1,5 +1,5 @@
 variable "bucket" {
-  default = "baamtu"
+  default = "sentech"
 }
 
 variable "region" {
@@ -7,9 +7,9 @@ variable "region" {
 }
 
 variable "iam" {
-  default = "baamtu"
+  default = "sentech"
 }
 
 variable "policy_name" {
-  default = "baamtu"
+  default = "sentech"
 }
